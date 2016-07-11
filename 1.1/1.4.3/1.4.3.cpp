@@ -1,4 +1,6 @@
 #include<iostream>/*潘光旦《中国人的特性》《寻求中国人的位育之道》*/
+using namespace std;
+
 int main()
 {
 	int sum = 0, value = 0;
@@ -7,7 +9,7 @@ int main()
 	{
 		sum += value;
 	}
-	std::cout << "Sum is: " << sum << std::endl;
+	cout << "Sum is: " << sum << endl;
 	system("pause");
 	return 0;
 
